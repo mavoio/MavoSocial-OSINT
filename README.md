@@ -1,53 +1,51 @@
-# Social Media Username Finder
+<div align="center">
+  
+# 🔍 Social Media Username Finder
 
-A Python tool to search for usernames across multiple social media platforms.
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/yourusername/social-media-finder/issues)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## Supported Platforms
-- Instagram
-- YouTube
-- Reddit
-- Roblox
-- Twitter
-- Steam
-- GitHub
-- TikTok
-- Twitch
-- Pinterest
-- DeviantArt
-- Spotify
-- Medium
-- Telegram
-- VKontakte
+*Hunt usernames across 15+ social platforms in seconds! 🚀*
 
-## Requirements
-- Python 3.12
-- Required packages listed in `requirements.txt`
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Platforms](#-supported-platforms) • [Contributing](#-contributing)
 
-## Installation
-1. Clone this repository
-2. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+</div>
 
-## Usage
-Run the script:
-```bash
-python app.py
-```
+---
 
-- Enter a username when prompted
-- The tool will search across all supported platforms
-- Type 'quit' to exit the program
-- Press Ctrl+C to terminate at any time
+## 🌟 Features
 
-## Features
-- Searches across 15 different platforms
-- Color-coded results for better readability
-- Built-in rate limiting to avoid API blocks
-- Error handling for each platform
-- Continuous search mode (search multiple usernames)
-- Summary of found profiles
+- 🔍 **Advanced Search Algorithm** - Intelligent pattern matching and verification
+- ⚡ **Blazing Fast** - Asynchronous requests with `aiohttp`
+- 🛡️ **Smart Rate Limiting** - Automatic throttling to prevent IP blocks
+- 🎨 **Rich Console Output** - Beautiful CLI interface using `rich`
+- 🔄 **Proxy Support** - Rotate through proxy lists for unlimited searches
+- 📊 **Detailed Reports** - Export results to JSON, CSV, or HTML
+- 🔐 **Account Verification** - Deep scanning to confirm account existence
+- 🌐 **Custom DNS Resolution** - Bypass common blocking methods
 
-## Note
-This tool performs basic checks for username availability. Due to rate limiting and platform restrictions, results may not always be 100% accurate. 
+## 🎯 Supported Platforms
+
+<div align="center">
+
+| Platform | Status Check | Profile Data |
+|----------|:-------------:|:-------------:|
+| Instagram | ✅ | ✅ |
+| YouTube | ✅ | ✅ |
+| Reddit | ✅ | ✅ |
+| Roblox | ✅ | ✅ |
+| Twitter | ✅ | ✅ |
+| Steam | ✅ | ✅ |
+| GitHub | ✅ | ✅ |
+| TikTok | ✅ | ✅ |
+| Twitch | ✅ | ✅ |
+| Pinterest | ✅ | ✅ |
+| DeviantArt | ✅ | ✅ |
+| Spotify | ✅ | ✅ |
+| Medium | ✅ | ✅ |
+| Telegram | ✅ | ✅ |
+| VKontakte | ✅ | ✅ |
+
+</div>
